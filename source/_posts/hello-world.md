@@ -36,3 +36,30 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+## test some features
+
+### code block
+
+```python
+def hello():
+    print("hello world")
+```
+
+### math
+
+$$
+\begin{aligned}
+\frac{\partial \mathcal{L}}{\partial \mathbf{W}} &=\frac{\partial \mathcal{L}}{\partial \mathbf{y}} \frac{\partial \mathbf{y}}{\partial \mathbf{W}} \\
+&=\frac{\partial \mathcal{L}}{\partial \mathbf{y}} \frac{\partial \mathbf{y}}{\partial \mathbf{h}} \frac{\partial \mathbf{h}}{\partial \mathbf{W}} \\
+&=\frac{\partial \mathcal{L}}{\partial \mathbf{y}} \frac{\partial \mathbf{y}}{\partial \mathbf{h}} \frac{\partial \mathbf{h}}{\partial \mathbf{z}} \frac{\partial \mathbf{z}}{\partial \mathbf{W}} \\
+&=\frac{\partial \mathcal{L}}{\partial \mathbf{y}} \frac{\partial \mathbf{y}}{\partial \mathbf{h}} \frac{\partial \mathbf{h}}{\partial \mathbf{z}} \frac{\partial \mathbf{z}}{\partial \mathbf{W}} \\
+\end{aligned}
+$$
+
+### table
+
+| 1    | 2    | 3    |
+| ---- | ---- | ---- |
+| 4    | 5    | 6    |
+| 7    | 8    | 9    |
