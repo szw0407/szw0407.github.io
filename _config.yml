@@ -115,3 +115,7 @@ markdown:
   anchors:
     level: 1
     collisionSuffix: ''
+
+mermaid:
+  enable: true
+  theme: default
