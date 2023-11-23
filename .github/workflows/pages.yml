@@ -28,7 +28,7 @@ jobs:
       - name: Install Dependencies
         run: npm install && rm -rf node_modules/@abreto/markdown-it-katex/node_modules/katex/ && cp -r node_modules/katex/ node_modules/@abreto/markdown-it-katex/node_modules/katex/
       - name: Move images
-        run: cp -r source/_posts/images/ source/images/ && sed -i 's/.\/images/https:\/\/szw0407.github.io\/images/g' public/_posts/*.md
+        run: cp -r source/_posts/images/ source/images/ && sed -i 's/.\/images/https:\/\/szw0407.github.io\/images/g' source/_posts/*.md
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
