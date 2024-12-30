@@ -828,10 +828,10 @@ katex@^0.11.1:
   dependencies:
     commander "^2.19.0"
 
-katex@^0.16.9:
-  version "0.16.9"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.16.9.tgz#bc62d8f7abfea6e181250f85a56e4ef292dcb1fa"
-  integrity sha512-fsSYjWS0EEOwvy81j3vRA8TEAhQhKiqO+FQaKWp0m39qwOzHVBgAUBIXWj1pB+O2W3fIpNa6Y9KSKCVbfPhyAQ==
+katex@^0.16.19:
+  version "0.16.19"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.16.19.tgz#698e026188876f9c8c93d3ecb27b212aaa056d0a"
+  integrity sha512-3IA6DYVhxhBabjSLTNO9S4+OliA3Qvb8pBQXMfC4WxXJgLwZgnfDl0BmB4z6nBMdznBsZ+CGM8DrGZ5hcguDZg==
   dependencies:
     commander "^8.3.0"
 
